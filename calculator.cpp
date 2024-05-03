@@ -18,6 +18,7 @@ const char print = ';';     // print command
 const char name = 'a';      // variable name
 const char let = 'L';       // variable declaration keyword
 const char mod = '%';       // modulus operator
+const char assign = '=';    // NEW assignment operator 
 
 class token {
     char kind_;
@@ -148,8 +149,17 @@ double primary() {
             return primary();
         case number:
             return t.value();
-        case name:
-            return get_value(t.name()); // access variables
+        case name: {           // UPDATED HERE for variable implementation
+            token next = ts.get();
+            if (next.kind() == assign) {
+                double d = expression();
+                set_value(t.name(), d); 
+                return d;
+            } else {
+                ts.putback(next);
+                return get_value(t.name()); // access variables
+            }
+        }
         default:
             throw std::runtime_error("primary expected");
     }
@@ -259,5 +269,6 @@ int main() {
         return 2;
     }
 }
+
 //SERENE QASEM
 // MAKE SURE YOU ADD ; AT THE END OF EVERY EQUATION!!!!!!!!!!!!!!!!!
