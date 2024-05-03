@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/seren/OneDrive/Documents/Calculator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\calculator_final.dir\\calculator.cpp.obj -c C:\\Users\\seren\\OneDrive\\Documents\\Calculator\\calculator.cpp",
+  "file": "C:/Users/seren/OneDrive/Documents/Calculator/calculator.cpp",
+  "output": "CMakeFiles/calculator_final.dir/calculator.cpp.obj"
+},
+{
+  "directory": "C:/Users/seren/OneDrive/Documents/Calculator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DTEST_MODE  -g -std=gnu++20 -o CMakeFiles\\test_calculator.dir\\calculator.cpp.obj -c C:\\Users\\seren\\OneDrive\\Documents\\Calculator\\calculator.cpp",
+  "file": "C:/Users/seren/OneDrive/Documents/Calculator/calculator.cpp",
+  "output": "CMakeFiles/test_calculator.dir/calculator.cpp.obj"
+}
+]

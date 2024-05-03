@@ -1,0 +1,5 @@
+C:/Users/seren/OneDrive/Documents/Calculator/build/CMakeFiles/calculator_final.dir
+C:/Users/seren/OneDrive/Documents/Calculator/build/CMakeFiles/test_calculator.dir
+C:/Users/seren/OneDrive/Documents/Calculator/build/CMakeFiles/test.dir
+C:/Users/seren/OneDrive/Documents/Calculator/build/CMakeFiles/edit_cache.dir
+C:/Users/seren/OneDrive/Documents/Calculator/build/CMakeFiles/rebuild_cache.dir
